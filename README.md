@@ -6,7 +6,7 @@ Original: Player is surrounded by a thorny barrier.
 
 Modified: Player is surrounded by a thorny barrier. (Shield of Thistles)
 
-![Screenshot 2025-04-25 120327](https://github.com/user-attachments/assets/3f926e67-545d-42c1-a286-50cc825e6042)
+![Screenshot 2025-04-25 121214](https://github.com/user-attachments/assets/d5666aa4-ebf7-40dc-b4d5-96c21413420a)
 
 ## Instructions -
 
