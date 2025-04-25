@@ -23,7 +23,7 @@ spellFileContent.split(/\r?\n/).forEach(line => {
 });
 
 const changedFileContents = changedLines.join('\n');
-fs.writeFileSync('./changed/spell_en.txt', changedFileContents, (err) => {
+fs.writeFileSync('./changed/spells_en.txt', changedFileContents, (err) => {
     if (err) {
         console.error(`Error writing to file: ${err}`);
     } else {
