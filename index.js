@@ -16,7 +16,7 @@ spellFileContent.split(/\r?\n/).forEach(line => {
     }
 
     if (lineSplit[8].length > 0) {
-        lineSplit[8] = `${lineSplit[7]} (${lineSplit[1]})`;
+        lineSplit[8] = `${lineSplit[8]} (${lineSplit[1]})`;
     }
     
     changedLines.push(lineSplit.join('^'));
