@@ -6,7 +6,8 @@ const spellFileContent = fs.readFileSync(filePath, 'utf-8');
 let changedLines = [];
 
 spellFileContent.split(/\r?\n/).forEach(line => {
-    let lineSplit = line.split('^');   
+    let lineSplit = line.split('^');
+    
     if (lineSplit[6].length > 0) {
         lineSplit[6] = `${lineSplit[6]} (${lineSplit[1]})`;
     }
